@@ -8,7 +8,7 @@ Show me the code
  *  This code is not transpiled, your bundler has to transpile
  *  it at build time
  */
-import { observe, onChange } from '@asasvirtuais/state/src'
+import { observe, onChange } from '@asasvirtuais/reactive/src'
 
 // Some code
 onChange(

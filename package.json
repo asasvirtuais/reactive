@@ -1,5 +1,5 @@
 {
-  "name": "@asasvirtuais/state",
+  "name": "@asasvirtuais/reactive",
   "version": "1.0.0",
   "type": "module",
   "devDependencies": {
