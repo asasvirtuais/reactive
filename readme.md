@@ -1,5 +1,23 @@
 
-Asas Virtuais library for state management
+A wrapper around RxJs reactivity with a simpler interface
+
+Show me the code
+
+```typescript
+/** Don't install via npm, you have to clone this repo to use it
+ *  This code is not transpiled, your bundler has to transpile
+ *  it at build time
+ */
+import { observe, onChange } from '@asasvirtuais/state/src'
+
+// Some code
+onChange(
+    ({ var1, var2, var3 }) => {
+        console.log('Reacting to change', var1, var2, va3)
+    },
+    observe({ var1, var2, va3 })
+)
+```
 
 # State management
 
